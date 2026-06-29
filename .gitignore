@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+.pytest_cache/
+.coverage
+htmlcov/
+.test_tmp/
+
+.vscode/
+.idea/
+
+*.txt
+!README.md
+
+samples/sample_output.txt

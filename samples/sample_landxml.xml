@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LandXML xmlns="http://www.landxml.org/schema/LandXML-1.2" version="1.2">
+  <Surfaces>
+    <Surface name="Existing Ground">
+      <Definition surfType="TIN">
+        <Pnts>
+          <P id="101">1.0 2.0 3.0</P>
+          <P id="205">4.0 5.0 6.0</P>
+          <P id="309">7.0 8.0 9.0</P>
+          <P id="412">10.0 11.0 12.0</P>
+        </Pnts>
+        <Faces>
+          <F>101 205 309</F>
+          <F>205 309 412</F>
+          <F>101 205 999</F>
+          <F>101 101 205</F>
+          <F>101 205 309 412</F>
+          <F></F>
+        </Faces>
+      </Definition>
+    </Surface>
+    <Surface name="Design">
+      <Definition surfType="TIN">
+        <Pnts>
+          <P id="A">0 0 0</P>
+          <P id="B">1 0 0</P>
+          <P id="C">0 1 0</P>
+        </Pnts>
+        <Faces>
+          <F>A B C</F>
+        </Faces>
+      </Definition>
+    </Surface>
+  </Surfaces>
+</LandXML>
