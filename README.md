@@ -1,5 +1,7 @@
 # landxml2tri
 
+English README: [README.en.md](README.en.md)
+
 `landxml2tri` は、LandXML の TIN サーフェスに含まれる `Pnts` と `Faces` をそのまま使い、1 行 1 三角形のテキストへ変換する Python ツールです。補間や再構築は行わず、`Faces` に書かれた点 ID を直接参照して三角形を復元します。
 
 ## 特徴
